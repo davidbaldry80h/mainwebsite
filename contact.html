@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>David Contact Form</title>
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            David Baldry
+        </div>
+        <ul class="nav-links">
+            <li><a href="/html/index1.html">Home</a></li>
+            <li><a href="/html/about.html">About</a></li>
+            <li><a href="/pages/portfolio.html">Portfolio</a></li>
+            <li><a href="/pages/contact.html">Contact Me</a></li>
+        </ul>
+        
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </nav>
+    <div class="container">
+        <form action="https://formsubmit.co/david.baldry123@hotmail.com" method="POST">
+            <input class="email" type="email" name="email" placeholder="Email Address"required>
+            <input  type="hidden" name="_next" value="https://david-baldry.co.uk/pages/thank you.html">
+            <input class="message" type="text" name="name" placeholder="write your message here" required>
+        
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    <script src="/app.js"></script>
+    <script src="/nav.js"></script>
+</body>
+</html>
